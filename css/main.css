@@ -1,0 +1,132 @@
+/* Global */
+div {
+  box-sizing: border-box;
+  transition:all 2s ease-in;
+}
+
+.main {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  align-self: center;
+  background-color: #ccc;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 1em;
+  padding: 0.5em;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+/* Header */
+.header-info {
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: #fff;
+  font-size: 1.1em;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Cat View related */
+.cat {
+  border-radius: 50%;
+  bottom: 4.8em;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  max-height: 426px;
+  min-height: 426px;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.counter {
+  display: inline-block;
+  font-size: 4em;
+  margin: 0;
+  position: relative;
+}
+
+.cat-disp {
+  flex: 4;
+}
+
+/* Cat List related */
+.list {
+  display: flex;
+  max-width: 25%;
+  min-width: 25%;
+  overflow: hidden;
+}
+
+.cat-list {
+  display: flex;
+  flex-flow: column;
+  font-size: 2em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.cat-list-common {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  text-transform: uppercase;
+  transition: flex 0.5s;
+}
+
+.cat-list-common:hover {
+  cursor: pointer;
+  flex-grow: 2;
+}
+
+.cat-list-0 {
+  background-image: url("../images/cat1.jpg");
+  background-position: 0 20%;
+  background-size: cover;
+}
+
+.cat-list-1 {
+  background-image: url("../images/cat2.jpg");
+  background-position: 0 30%;
+  background-size: cover;
+}
+
+.cat-list-2 {
+  background-image: url("../images/cat3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.cat-list-3 {
+  background-image: url("../images/cat4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.cat-list-4 {
+  background-image: url("../images/cat5.jpg");
+  background-position: 0 40%;
+  background-size: cover;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cat Clicker</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="header-info">
+          <h1 class="">The Cat Clicker!</h1>
+          <span class="button" onclick="octopus.reset();">Reset</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="cat-disp">
+          <h2 id="cat-name"></h2>
+          <img id="cat-img" class="cat" src="" alt="Cat Picture">
+          <p id="cat-counter" class="counter"></p>
+        </div>
+        <div class="list">
+          <ul id="cat-list" class="cat-list">
+          </ul>
+        </div>
+      </div>
+      <div>
+        <form id="admin-form" class="hidden">
+          <label for="admin-cat-name">Name:</label>
+          <input id="admin-cat-name" type="text">
+          <label for="admin-cat-src">Image:</label>
+          <input id="admin-cat-src" type="text">
+          <label for="admin-cat-count">Count:</label>
+          <input id="admin-cat-count" type="text">
+          <button type="submit" name="submit">Save</button>
+          <button id="admin-cancel" type="button" name="button">Cancel</button>
+        </form>
+        <span id="admin-button" class="button" onclick="octopus.toggleAdmin();">Admin</span>
+      </div>
+    </div>
+  <script src="js/main.js"></script>
+  </body>
+</html>
