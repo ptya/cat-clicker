@@ -1,19 +1,3 @@
-/* PRO STUFF:
-Model:
-  - property for admin view showing (true/false)
-View:
-  - add event listeners for form buttons
-Octopus:
-  - func to open the view on Admin
-  - func to close the view on Cancel
-  - func to update current cat on Save
-
-Form:
-  - name
-  - img src
-  - click count
-*/
-
 /* -- MODEL -- */
 const model = {
   init: function(i=0) {
